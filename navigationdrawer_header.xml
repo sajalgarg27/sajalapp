@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="@color/headerColor"
+    android:layout_height="180dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uimage"
+        android:src="@drawable/sample_5"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:layout_toRightOf="@+id/uimage"
+    android:text="Sajal Garg"
+    android:id="@+id/uname"
+    android:textStyle="bold"
+    android:textColor="@color/headerTextColor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/uimage"
+        android:layout_below="@+id/uname"
+        android:id="@+id/uemail"
+        android:text="sajalgarg26@gmail.com"
+        android:textStyle="bold"
+        android:textColor="@color/headerTextColor"/>
+</RelativeLayout>
